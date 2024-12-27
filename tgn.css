@@ -357,6 +357,18 @@
             padding: 10px; 
             background-color: #f8f9fa;
         }
+        
+        @media (min-width: 768px) {
+          .gallery-item {
+              flex: 0 0 100%;
+          }
+        }
+        
+        @media (min-width: 992px) {
+            .gallery-item {
+              flex: 0 0 100%;
+            }
+        }
         footer {
             background-color: #333;
             color: #fff;
