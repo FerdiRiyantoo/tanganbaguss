@@ -332,7 +332,7 @@
         }
         
         .gallery-item {
-            flex: 1 1 calc(33.333% - 20px);
+            flex: 1 1 calc(33.33% - 20px);
             overflow: hidden;
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -360,13 +360,13 @@
         
         @media (min-width: 768px) {
           .gallery-item {
-              flex: 0 0 100%;
+              flex: 1 1 calc(100% - 20px);
           }
         }
         
-        @media (min-width: 992px) {
+        @media (min-width: 1024px) {
             .gallery-item {
-              flex: 0 0 100%;
+              flex: 1 1 calc(50% - 20px);
             }
         }
         footer {
